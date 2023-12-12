@@ -46,4 +46,4 @@ Replace all areas with "INSERT_API_KEY" with your own Open AI API key before run
 ### Opening visualization files
 A key part of understanding our project's purpose and analysis includes seeing the plots and graphs in our .ipynb files. Although running
 run.py will run all of the .ipynb files, for the graphs to be visible, you must manually open each file. Please take a look at the following 
-ipynb files to understand our visualizations: 'exploratory_visualizations.ipynb', 'agent_response_visualizations.ipynb', 'inal_bias_visualizations.ipynb'.
+ipynb files to understand our visualizations: 'exploratory_visualizations.ipynb', 'agent_response_visualizations.ipynb',  'final_bias_visualizations.ipynb'.
