@@ -40,4 +40,6 @@ you need to follow the link (https://www.kaggle.com/datasets/manchunhui/us-elect
 The most important thing to note about our data is that the raw data is too large to be uploaded to Github. To be able to run our code, 
 you need to follow the link (https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets), download the two csv files, and store them in the data folder. They should be saved as hashtag_donaldtrump.csv and hashtag_joebiden.csv
 ### API Key
-Replace all areas with "INSERT_API_KEY" with your own Open AI API key before running the notebook. You can make an API key here: https://platform.openai.com/api-keys 
+Replace all areas with "INSERT_API_KEY" with your own Open AI API key before running the notebook. You can make an API key here: https://platform.openai.com/api-keys
+### File Descriptions
+### run.py
