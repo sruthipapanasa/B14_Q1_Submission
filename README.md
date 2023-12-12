@@ -37,4 +37,4 @@ They should be saved as hashtag_donaldtrump.csv and hashtag_joebiden.csv
 ```pip install langchain```
 
 ## Running The Code
-Replace all areas with "INSERT_API_KEY" with your own Open AI API key before running the notebook.
+Replace all areas with "INSERT_API_KEY" with your own Open AI API key before running the notebook. You can make an API key here: https://platform.openai.com/api-keys 
