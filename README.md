@@ -30,11 +30,6 @@ and thoughts on candidates.
 The most important thing to note about our data is that the raw data is too large to be uploaded to Github. To be able to run our code, 
 you need to follow the link (https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets), download the two csv files, and store them in the data folder. They should be saved as hashtag_donaldtrump.csv and hashtag_joebiden.csv
 
-## Installations --> todo
-```pip install openai``` 
-
-```pip install langchain```
-
 ## Running The Code
 ### Downloading the data 
 The most important thing to note about our data is that the raw data is too large to be uploaded to Github. To be able to run our code, 
@@ -49,8 +44,8 @@ ipynb files to understand our visualizations: 'exploratory_visualizations.ipynb'
 ### Runtime
 Because we are dealing with large amounts of data that are timely to process, it is expected that 'run.py' will take a long time to produce any outputs. Please expect approximately 30 minutes for the code to finish running. Thank you for your patience!
 
-### run.py
-To run all the code, type in ```python3 run.py``` in your command line and press enter. This will start the process.
+### Running run.py
+To run all the code, type in ```python run.py data model``` in your command line in your terminal and press enter(Please note it may be "python3" instead depending on what your system has). This will run our entire project, as well as install any packages you need onto your system. If you would like to just run the data cleaning part, please put in ```python run.py data``` instead. Adding in "model" will run our large language model and create the visualizations. 
 
 ## File Descriptions
 ### data_cleaning.py
