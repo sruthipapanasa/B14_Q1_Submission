@@ -45,7 +45,7 @@ ipynb files to understand our visualizations: 'exploratory_visualizations.ipynb'
 Because we are dealing with large amounts of data that are timely to process, it is expected that 'run.py' will take a long time to produce any outputs. Please expect approximately 30 minutes for the code to finish running. Thank you for your patience!
 
 ### Running run.py
-To run all the code, type in ```python run.py data model``` in your command line in your terminal and press enter(Please note it may be "python3" instead depending on what your system has). This will run our entire project, as well as install any packages you need onto your system. If you would like to just run the data cleaning part, please put in ```python run.py data``` instead. Adding in "model" will run our large language model and create the visualizations. 
+To run all the code, type in ```python run.py data``` in your command line in your terminal and press enter(Please note it may be "python3" instead depending on what your system has). This will run our entire project on your system, as well as install any packages you need onto your system. 
 
 ## File Descriptions
 ### data_cleaning.py
