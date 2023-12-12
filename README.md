@@ -49,6 +49,9 @@ ipynb files to understand our visualizations: 'exploratory_visualizations.ipynb'
 ### Runtime
 Because we are dealing with large amounts of data that are timely to process, it is expected that 'run.py' will take a long time to produce any outputs. Please expect approximately 30 minutes for the code to finish running. Thank you for your patience!
 
+### run.py
+To run all the code, type in ```python3 run.py``` in your command line and press enter. This will start the process.
+
 ## File Descriptions
 ### data_cleaning.py
 This file takes in the raw data from Kaggle. We cleaned the dataset, removing all of the unnecessary
@@ -79,4 +82,4 @@ level of agreement with the topic and its reasoning. We use these results as the
 This notebook provides visualizations that analyze the results of the previous agent responses. We break the responses down by the distribution
 of their level of agreement, by which political candidate they support, how similar their perspectives are to each other, and how frequently they output a certain response. 
 ### final_bias_visualizations.ipynb
-This notebook analyzes some concerning biases that the agents might have. It provides some visualizations that help us break down and understand certain biases, and disprove other biases. We conclude by analyzing why these agents answer questions the way that they do. 
+This notebook analyzes some concerning biases that the agents might have. It provides some visualizations that help us break down and understand certain biases, and disprove other biases. Instead of testing all 10 topics for bias as it was too time-consuming, we picked 5 topics to test. We conclude by analyzing why these agents answer questions the way that they do. 
