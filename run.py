@@ -1,6 +1,18 @@
 import sys
 import subprocess
 
+def install_packages():
+    try:
+        dependencies = ['numpy', 'pandas', 'regex', 'langdetect', 'matplotlib',
+                        'seaborn', 'OpenAI', 'langchain']
+        for package in dependencies:
+            subprocess.check_call([sys.executable, '-m', 'pip', 'install', package])
+        print("Packages installed successfully.")
+    except Exception as e:
+        print(f"Error: {e}")
+
+install_packages()
+
 import pandas as pd 
 from matplotlib import pyplot as plt
 from collections import Counter
@@ -14,15 +26,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from json import load
 
-def install_packages():
-    try:
-        dependencies = ['numpy', 'pandas', 'matplotlib', 'OpenAI', 'langchain']
-        for package in dependencies:
-            subprocess.check_call([sys.executable, '-m', 'pip', 'install', package])
-        print("Packages installed successfully.")
-    except Exception as e:
-        print(f"Error: {e}")
-
 filenames = ["demo.ipynb",
             "exploratory_visualizations.ipynb",
             "agent_responses.ipynb", 
@@ -31,7 +34,6 @@ filenames = ["demo.ipynb",
 
     
 if __name__ == '__main__':
-    install_packages()
     args = sys.argv[1:]
     if 'data' in args:
         for filename in filenames:
