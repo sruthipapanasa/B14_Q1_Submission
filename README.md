@@ -62,9 +62,6 @@ This file contains three methods: sample_user, sample_tweet, sample_tweet_group,
 these methods sample from the larger dataset to create a small sample size that represents and evenly-distributed portion of 
 the larger dataset. This smaller dataset allows us to train our model quicker on data that represents the population 
 accurately. 
-### prompt_template.py
-This file provides a template that tells the Langchain agent to get the author's tone description from the tweets it 
-was trained on, then use that tone to mock the persona that is extracted from the text and tone.  
 ### exploratory_in_context_learning.py
 This file uses in-context learning to prompt the model agent to answer a question when provided with a certain topic. The agent 
 will take in the inputted topic, then tell us to what level it agrees with the topic provided, responding with a number ranging from 
