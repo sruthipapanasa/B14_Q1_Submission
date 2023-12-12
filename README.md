@@ -48,4 +48,4 @@ A key part of understanding our project's purpose and analysis includes seeing t
 run.py will run all of the .ipynb files, for the graphs to be visible, you must manually open each file. Please take a look at the following 
 ipynb files to understand our visualizations: 'exploratory_visualizations.ipynb', 'agent_response_visualizations.ipynb',  'final_bias_visualizations.ipynb'.
 ### Runtime
-Because we are dealing with large amounts of data that is timely to process, it is expected that 'run.py' will take a long time to produce any outputs. Please expect approximately x minutes for the code to finish running. Thank you for your patience.
+Because we are dealing with large amounts of data that are timely to process, it is expected that 'run.py' will take a long time to produce any outputs. Please expect approximately x minutes for the code to finish running. Thank you for your patience!
